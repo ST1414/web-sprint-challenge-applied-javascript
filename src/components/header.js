@@ -33,16 +33,9 @@ const Header = (title, date, temp) => {
   headerDiv.appendChild(titleH1);
   headerDiv.appendChild(tempSpan);
 
-  console.log('HEADER TEST 1A: ', headerDiv);
-
   // Return
   return headerDiv;
 }
-
-const headerTest = Header('TITLE', 'TODAY', 'BLAH BLAH BLAH');
-// console.log('HEADER TEST 1B: ', headerTest);
-// console.log('HEADER TEST 2: ', Header('TEST 3', 'TODAY 3', 'BLAH BLAH BLAH 3'));
-
 
 
 const headerAppender = (selector) => {
